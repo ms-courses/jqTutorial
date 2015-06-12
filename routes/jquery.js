@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. /users */
+/* GET home page. /jquery */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.render('jquery', { title: 'Jquery tutorial' });
 });
 
 module.exports = router;

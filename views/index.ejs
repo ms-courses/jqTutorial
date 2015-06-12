@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>JQuery</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <button id="id1">Start</button>
+    <button id="id2">Fail</button>
+    <button id="id3">Resolve</button>
+    <div class="meter">
+        <span id="pr1" style="width: 0"></span>
+    </div>
+
+    <br/>
+    <button id="id4">Get people</button>
+    <table id="tableData">
+        <thead>
+          <th>Fn</th>
+          <th>Ln</th>
+        </thead>
+    </table>
+    <input type="text" id="idfn">
+    <input type="text" id="idln">
+    <button id="id5">Add person</button>
+
   </body>
   <script src="/components/jquery/dist/jquery.min.js"></script>
+  <script src="/javascripts/app.js"></script>
 </html>
